@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wohnwelten – INUMA</title>
+    <script type="module" src="./js/main.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <header id="header" class="header">
+        <nav class="main-nav">
+          <div class="logo-box-img">
+            <a href="./index.html">
+              <img src="./img/logo.svg" alt="INUMA logo" width="52" height="67"
+            /></a>
+          </div>
+          <div class="holder-navbar">
+            <ul class="navbar-nav">
+              <li>
+                <a href="unternehmen.html">Unternehmen</a>
+              </li>
+              <li>
+                <a href="#modal-full" uk-toggle
+                  >Referenzen
+                  <i class="icon icon-small-arrow-down"></i>
+                  <i class="icon icon-long-arrow-right"></i>
+                </a>
+                <div
+                  id="modal-full"
+                  class="uk-modal-full category-dropdown"
+                  uk-modal
+                >
+                  <div class="modal-header-holder">
+                    <div class="logo-box-img">
+                      <a href="./index.html">
+                        <img
+                          src="./img/logo.svg"
+                          alt="INUMA logo"
+                          width="52"
+                          height="67"
+                      /></a>
+                    </div>
+                    <div
+                      class="nav-wrapper"
+                      uk-toggle="target:body; cls:menu-active"
+                    >
+                      <span class="nav-opener"
+                        ><span>Toggle navigation</span></span
+                      >
+                    </div>
+                  </div>
+
+                  <div class="uk-modal-dialog">
+                    <div class="uk-container">
+                      <button
+                        class="uk-modal-close-full uk-close-large back-button"
+                        type="button"
+                        uk-close
+                      >
+                        <i class="icon icon-long-arrow-right"></i>
+                      </button>
+                      <ul
+                        class="category-list row-grid col-2 col-md-3 col-lg-5"
+                        uk-scrollspy="target: > li:nth-last-child(-n+5); cls: uk-animation-slide-top-small; delay: 100; repeat: true"
+                      >
+                        <li class="title-box">
+                          <h3>Unsere Referenzen.</h3>
+                        </li>
+                        <li class="active">
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/arbeitswelten-1.png" />
+                            </div>
+                            <strong>Arbeitswelten</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/wohnwelten-1.png" />
+                            </div>
+                            <strong>Wohnwelten</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/showroom-1.png" />
+                            </div>
+                            <strong>Showroom</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/filialen-1.png" />
+                            </div>
+                            <strong>Filialen</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img
+                                src="./img/individueller-innenausbau-1.png"
+                              />
+                            </div>
+                            <strong>Individueller Innenausbau</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/serienproduktion-1.png" />
+                            </div>
+                            <strong>Serienproduktion</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/mobel-nach-mass-1.png" />
+                            </div>
+                            <strong>Möbel nach Maß</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/museen-1.png" />
+                            </div>
+                            <strong>Museen</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/gastronomie-hospitality-1.png" />
+                            </div>
+                            <strong>Gastronomie/ Hospitality</strong>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="karriere.html">Karriere</a>
+              </li>
+              <li>
+                <a href="kontakt.html">Kontakt</a>
+              </li>
+              <ul class="social-media-list">
+                <li>
+                  <a
+                    href="https://www.instagram.com/inuma_gmbh/"
+                    target="_blank"
+                    aria-label="Instagram"
+                  >
+                    <i class="icon icon-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.facebook.com/INUMAgmbh/"
+                    target="_blank"
+                    aria-label="Facebook"
+                  >
+                    <i class="icon icon-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/inumagmbh/"
+                    target="_blank"
+                    aria-label="LinkedIn"
+                  >
+                    <i class="icon icon-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </ul>
+          </div>
+        </nav>
+        <div class="burger-button">
+          <a
+            href="#"
+            class="nav-opener"
+            data-uk-toggle="target:body; cls:menu-active"
+          >
+            <span>menu</span>
+          </a>
+        </div>
+      </header>
+
+      <main id="main">
+        <section class="section section-all-referenzes">
+          <div class="uk-container">
+            <div class="boundary dropdown-categories">
+              <button
+                class="uk-button uk-button-default active-categorie"
+                type="button"
+              >
+                <div>
+                  <i class="icon icon-wohnwelten"></i><span>Wohnwelten</span>
+                </div>
+                <i class="icon icon-small-arrow-down"></i>
+              </button>
+              <div
+                uk-dropdown="animate-out: true; duration: 300; animation: reveal-top; shift: false; flip: false; mode: click; boundary: !.boundary"
+                class="mobile-open"
+              >
+                <ul class="referenzes-list uk-nav uk-dropdown-nav">
+                  <li class="uk-active">
+                    <a href="#"
+                      ><i class="icon icon-arbeitswelten"></i
+                      ><span>Arbeitswelten</span></a
+                    >
+                  </li>
+                  <li class="active">
+                    <a href="#"
+                      ><i class="icon icon-wohnwelten"></i
+                      ><span>Wohnwelten</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="icon icon-showroom"></i
+                      ><span>Showroom</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="icon icon-filialen"></i
+                      ><span>Filialen</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="icon icon-individueller-innenausbau"></i
+                      ><span>Individueller innenausbau</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="icon icon-serienproduktion"></i
+                      ><span>Serienproduktion</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="icon icon-mobel-nach-mass"></i
+                      ><span>Mobel nach mass</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="icon icon-museen"></i><span>Museen</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="icon icon-gastronomie-hospitality"></i
+                      ><span>Gastronomie hospitality</span></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="text-box">
+              <h2 class="uk-animation-slide-bottom-medium">Wohnwelten.</h2>
+              <p class="uk-animation-slide-right-medium">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+                nostrud exerci tation ullamcorper suscipit.
+              </p>
+            </div>
+
+            <div class="boundary dropdown-tags-filter">
+              <div class="custom-select-holder">
+                <button
+                  class="uk-button uk-button-default active-categorie"
+                  type="button"
+                >
+                  <strong>Filtern nach Stichwort</strong>
+                  <i class="icon icon-small-arrow-down"></i>
+                </button>
+                <div
+                  uk-dropdown="animate-out: true; duration: 300; animation: reveal-top; shift: false; flip: false; mode: click; boundary: !.boundary"
+                  class="filters-open"
+                >
+                  <ul class="tags-filter-list uk-nav uk-dropdown-nav">
+                    <li class="uk-active" data-value="all">
+                      Alle <span class="count">(4)</span>
+                    </li>
+                    <li data-value="ANKLEIDEZIMMER">
+                      ANKLEIDEZIMMER <span class="count">(1)</span>
+                    </li>
+                    <li data-value="BAD">BAD <span class="count">(1)</span></li>
+                    <li data-value="BIBLIOTHEK">
+                      BIBLIOTHEK <span class="count">(1)</span>
+                    </li>
+                    <li data-value="ESSTISCH">
+                      ESSTISCH <span class="count">(1)</span>
+                    </li>
+                    <li data-value="KAMINWAND">
+                      KAMINWAND <span class="count">(1)</span>
+                    </li>
+                    <li data-value="KOCHCENTER">
+                      KOCHCENTER <span class="count">(1)</span>
+                    </li>
+                    <li data-value="KÜCHE">
+                      KÜCHE <span class="count">(3)</span>
+                    </li>
+                    <li data-value="LIVING_CENTER">
+                      LIVING CENTER <span class="count">(1)</span>
+                    </li>
+                    <li data-value="SCHLAFZIMMER">
+                      SCHLAFZIMMER <span class="count">(1)</span>
+                    </li>
+                    <li data-value="SITZBANK">
+                      SITZBANK <span class="count">(1)</span>
+                    </li>
+                    <li data-value="WANDVERKLEIDUNG">
+                      WANDVERKLEIDUNG <span class="count">(1)</span>
+                    </li>
+                    <li data-value="WASCHTISCH">
+                      WASCHTISCH <span class="count">(1)</span>
+                    </li>
+                    <li data-value="WOHNRAUM">
+                      WOHNRAUM <span class="count">(3)</span>
+                    </li>
+                  </ul>
+                </div>
+                <input
+                  type="hidden"
+                  id="selected-tag"
+                  name="selected-tag"
+                  value="all"
+                />
+              </div>
+            </div>
+
+            <ul class="referenzes-cards-list">
+              <li>
+                <a href="./gallery.html">
+                  <div class="box-img">
+                    <img
+                      src="./img/wohnwelten-1.jpg"
+                      alt="wohnwelten-referenzen"
+                    />
+                  </div>
+                  <h5>Küche Villa Charlottenburg</h5>
+                  <div class="card-tags">
+                    <span class="tag">Mineralwerkstoff</span>
+                    <span class="tag">Bad</span>
+                    <span class="tag">Schlafzimmer</span>
+                    <span class="tag">Wohnraum</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="./gallery.html">
+                  <div class="box-img">
+                    <img
+                      src="./img/wohnwelten-2.jpg"
+                      alt="wohnwelten-referenzen"
+                    />
+                  </div>
+                  <h5>Einbaumöblierung Villenausbau Berlin</h5>
+                  <div class="card-tags">
+                    <span class="tag">Küche</span>
+                    <span class="tag">Bad</span>
+                    <span class="tag">Schlafzimmer</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="./gallery.html">
+                  <div class="box-img">
+                    <img
+                      src="./img/wohnwelten-3.jpg"
+                      alt="wohnwelten-referenzen"
+                    />
+                  </div>
+                  <h5>Küche Villa Charlottenburg</h5>
+                  <div class="card-tags">
+                    <span class="tag">Mineralwerkstoff</span>
+                    <span class="tag">Bad</span>
+                    <span class="tag">Schlafzimmer</span>
+                    <span class="tag">Wohnraum</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="./gallery.html">
+                  <div class="box-img">
+                    <img
+                      src="./img/wohnwelten-4.jpg"
+                      alt="wohnwelten-referenzen"
+                    />
+                  </div>
+                  <h5>Küche Villa Charlottenburg</h5>
+                  <div class="card-tags">
+                    <span class="tag">Schlafzimmer</span>
+                    <span class="tag">Wohnraum</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="./gallery.html">
+                  <div class="box-img">
+                    <img
+                      src="./img/wohnwelten-1.jpg"
+                      alt="wohnwelten-referenzen"
+                    />
+                  </div>
+                  <h5>Küche Villa Charlottenburg</h5>
+                  <div class="card-tags">
+                    <span class="tag">Mineralwerkstoff</span>
+                    <span class="tag">Bad</span>
+                    <span class="tag">Schlafzimmer</span>
+                    <span class="tag">Wohnraum</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="./gallery.html">
+                  <div class="box-img">
+                    <img
+                      src="./img/wohnwelten-2.jpg"
+                      alt="wohnwelten-referenzen"
+                    />
+                  </div>
+                  <h5>Einbaumöblierung Villenausbau Berlin</h5>
+                  <div class="card-tags">
+                    <span class="tag">Küche</span>
+                    <span class="tag">Bad</span>
+                    <span class="tag">Schlafzimmer</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="./gallery.html">
+                  <div class="box-img">
+                    <img
+                      src="./img/wohnwelten-3.jpg"
+                      alt="wohnwelten-referenzen"
+                    />
+                  </div>
+                  <h5>Küche Villa Charlottenburg</h5>
+                  <div class="card-tags">
+                    <span class="tag">Mineralwerkstoff</span>
+                    <span class="tag">Bad</span>
+                    <span class="tag">Schlafzimmer</span>
+                    <span class="tag">Wohnraum</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="./gallery.html">
+                  <div class="box-img">
+                    <img
+                      src="./img/wohnwelten-4.jpg"
+                      alt="wohnwelten-referenzen"
+                    />
+                  </div>
+                  <h5>Küche Villa Charlottenburg</h5>
+                  <div class="card-tags">
+                    <span class="tag">Schlafzimmer</span>
+                    <span class="tag">Wohnraum</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <hr />
+          </div>
+        </section>
+      </main>
+
+      <footer id="footer">
+        <div class="uk-container">
+          <div class="contact-box">
+            <div class="info-box">
+              <ul class="address-list">
+                <li class="company-name">
+                  <a href="./index.html"><strong>INUMA GmbH</strong></a>
+                </li>
+                <li class="company-addr">
+                  Bergweg 5C<br />
+                  04356 Leipzig
+                </li>
+              </ul>
+              <ul class="uk-list kontakts-list">
+                <li>
+                  Telefon: <a href="tel:+493415262560">+49 341 526 25 60</a>
+                </li>
+                <li>
+                  Telefax: <a href="tel:+493415262570">+49 341 526 25 70</a>
+                </li>
+                <li>
+                  E-Mail: <a href="mailto:info@inuma.de">info@inuma.de</a>
+                </li>
+              </ul>
+            </div>
+            <ul class="social-media-list">
+              <li>
+                <a href="#">
+                  <i class="icon icon-facebook"></i>
+                  <strong>Facebook</strong>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="icon icon-instagram"></i>
+                  <strong>Instagram</strong>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="icon icon-linkedin"></i>
+                  <strong>LinkedIn</strong>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="uk-list copyright-list">
+            <li>© 2015 <a href="./index.html">Inuma</a></li>
+            <li><a href="./impressum.html">Impressum</a></li>
+            <li><a href="./confidentiality.html">Datenschutz</a></li>
+          </div>
+        </div>
+        <div class="logo-box">
+          <a href="./index.html">
+            <img src="./img/logo.svg" alt="logo" />
+          </a>
+        </div>
+      </footer>
+      <div id="preloader">
+        <div class="spinner"></div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt – INUMA</title>
+    <script type="module" src="./js/main.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <header id="header" class="header">
+        <nav class="main-nav">
+          <div class="logo-box-img">
+            <a href="./index.html">
+              <img src="./img/logo.svg" alt="INUMA logo" width="52" height="67"
+            /></a>
+          </div>
+          <div class="holder-navbar">
+            <ul class="navbar-nav">
+              <li>
+                <a href="unternehmen.html">Unternehmen</a>
+              </li>
+              <li>
+                <a href="#modal-full" uk-toggle
+                  >Referenzen
+                  <i class="icon icon-small-arrow-down"></i>
+                  <i class="icon icon-long-arrow-right"></i>
+                </a>
+                <div
+                  id="modal-full"
+                  class="uk-modal-full category-dropdown"
+                  uk-modal
+                >
+                  <div class="modal-header-holder">
+                    <div class="logo-box-img">
+                      <a href="./index.html">
+                        <img
+                          src="./img/logo.svg"
+                          alt="INUMA logo"
+                          width="52"
+                          height="67"
+                      /></a>
+                    </div>
+                    <div
+                      class="nav-wrapper"
+                      uk-toggle="target:body; cls:menu-active"
+                    >
+                      <span class="nav-opener"
+                        ><span>Toggle navigation</span></span
+                      >
+                    </div>
+                  </div>
+
+                  <div class="uk-modal-dialog">
+                    <div class="uk-container">
+                      <button
+                        class="uk-modal-close-full uk-close-large back-button"
+                        type="button"
+                        uk-close
+                      >
+                        <i class="icon icon-long-arrow-right"></i>
+                      </button>
+                      <ul
+                        class="category-list row-grid col-2 col-md-3 col-lg-5"
+                        uk-scrollspy="target: > li:nth-last-child(-n+5); cls: uk-animation-slide-top-small; delay: 100; repeat: true"
+                      >
+                        <li class="title-box">
+                          <h3>Unsere Referenzen.</h3>
+                        </li>
+                        <li class="active">
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/arbeitswelten-1.png" />
+                            </div>
+                            <strong>Arbeitswelten</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/wohnwelten-1.png" />
+                            </div>
+                            <strong>Wohnwelten</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/showroom-1.png" />
+                            </div>
+                            <strong>Showroom</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/filialen-1.png" />
+                            </div>
+                            <strong>Filialen</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img
+                                src="./img/individueller-innenausbau-1.png"
+                              />
+                            </div>
+                            <strong>Individueller Innenausbau</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/serienproduktion-1.png" />
+                            </div>
+                            <strong>Serienproduktion</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/mobel-nach-mass-1.png" />
+                            </div>
+                            <strong>Möbel nach Maß</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/museen-1.png" />
+                            </div>
+                            <strong>Museen</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/gastronomie-hospitality-1.png" />
+                            </div>
+                            <strong>Gastronomie/ Hospitality</strong>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="karriere.html">Karriere</a>
+              </li>
+              <li class="active">
+                <a href="kontakt.html">Kontakt</a>
+              </li>
+              <ul class="social-media-list">
+                <li>
+                  <a
+                    href="https://www.instagram.com/inuma_gmbh/"
+                    target="_blank"
+                    aria-label="Instagram"
+                  >
+                    <i class="icon icon-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.facebook.com/INUMAgmbh/"
+                    target="_blank"
+                    aria-label="Facebook"
+                  >
+                    <i class="icon icon-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/inumagmbh/"
+                    target="_blank"
+                    aria-label="LinkedIn"
+                  >
+                    <i class="icon icon-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </ul>
+          </div>
+        </nav>
+        <div class="burger-button">
+          <a
+            href="#"
+            class="nav-opener"
+            data-uk-toggle="target:body; cls:menu-active"
+          >
+            <span>menu</span>
+          </a>
+        </div>
+      </header>
+
+      <main id="main">
+        <section class="section section-kontakt">
+          <div class="uk-container">
+            <div class="titles">
+              <strong class="subtitle uk-animation-slide-right-medium"
+                >Kontakt</strong
+              >
+              <h2 class="uk-animation-slide-bottom-medium">
+                Haben Sie Fragen, Anregungen oder Wünsche?
+              </h2>
+            </div>
+            <div class="square-box">
+              <img src="./img/half-square.png" alt="half-square-image" />
+            </div>
+            <div class="kontakt-us-box uk-animation-slide-bottom-medium">
+              <div>
+                <h6>Kontaktieren Sie uns</h6>
+                <ul class="kontakts-list">
+                  <li>
+                    <strong
+                      >Telefon:
+                      <a href="tel:+493415262560">+49 341 526 25 60</a></strong
+                    >
+                  </li>
+                  <li>
+                    <strong>
+                      Telefax:
+                      <a href="tel:+493415262570">+49 341 526 25 70</a></strong
+                    >
+                  </li>
+                  <li>
+                    <strong>
+                      E-Mail:
+                      <a href="mailto:info@inuma.de">info@inuma.de</a></strong
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h6>Besuchen Sie uns</h6>
+                <ul class="adress-list">
+                  <li class="company-name">
+                    <a href="./index.html"><strong>INUMA GmbH</strong></a>
+                  </li>
+                  <li class="company-addr">
+                    <strong>
+                      Bergweg 5C<br />
+                      04356 Leipzig</strong
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h6>Folgen Sie uns auf Social Media</h6>
+                <ul class="social-media-list">
+                  <li>
+                    <a href="#">
+                      <i class="icon icon-facebook"></i>
+                      <strong>Facebook</strong>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="icon icon-instagram"></i>
+                      <strong>Instagram</strong>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="icon icon-linkedin"></i>
+                      <strong>LinkedIn</strong>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="map-box">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.838815366781!2d12.402415761305106!3d51.40485727992128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a65782de1cc3a7%3A0xd2d7f3d3c2d00374!2sInuma%20GmbH!5e0!3m2!1sde!2sde!4v1761653706979!5m2!1sde!de"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </section>
+      </main>
+      <footer id="footer">
+        <div class="uk-container">
+          <div class="contact-box">
+            <div class="info-box">
+              <ul class="address-list">
+                <li class="company-name">
+                  <a href="./index.html"><strong>INUMA GmbH</strong></a>
+                </li>
+                <li class="company-addr">
+                  Bergweg 5C<br />
+                  04356 Leipzig
+                </li>
+              </ul>
+              <ul class="uk-list kontakts-list">
+                <li>
+                  Telefon: <a href="tel:+493415262560">+49 341 526 25 60</a>
+                </li>
+                <li>
+                  Telefax: <a href="tel:+493415262570">+49 341 526 25 70</a>
+                </li>
+                <li>
+                  E-Mail: <a href="mailto:info@inuma.de">info@inuma.de</a>
+                </li>
+              </ul>
+            </div>
+            <ul class="social-media-list">
+              <li>
+                <a href="#">
+                  <i class="icon icon-facebook"></i>
+                  <strong>Facebook</strong>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="icon icon-instagram"></i>
+                  <strong>Instagram</strong>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="icon icon-linkedin"></i>
+                  <strong>LinkedIn</strong>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="uk-list copyright-list">
+            <li>© 2015 <a href="./index.html">Inuma</a></li>
+            <li><a href="./impressum.html">Impressum</a></li>
+            <li><a href="./confidentiality.html">Datenschutz</a></li>
+          </div>
+        </div>
+        <div class="logo-box">
+          <a href="./index.html">
+            <img src="./img/logo.svg" alt="logo" />
+          </a>
+        </div>
+      </footer>
+      <div id="preloader">
+        <div class="spinner"></div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karriere – INUMA</title>
+    <script type="module" src="./js/main.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <header id="header" class="header">
+        <nav class="main-nav">
+          <div class="logo-box-img">
+            <a href="./index.html">
+              <img src="./img/logo.svg" alt="INUMA logo" width="52" height="67"
+            /></a>
+          </div>
+          <div class="holder-navbar">
+            <ul class="navbar-nav">
+              <li>
+                <a href="unternehmen.html">Unternehmen</a>
+              </li>
+              <li>
+                <a href="#modal-full" uk-toggle
+                  >Referenzen
+                  <i class="icon icon-small-arrow-down"></i>
+                  <i class="icon icon-long-arrow-right"></i>
+                </a>
+                <div
+                  id="modal-full"
+                  class="uk-modal-full category-dropdown"
+                  uk-modal
+                >
+                  <div class="modal-header-holder">
+                    <div class="logo-box-img">
+                      <a href="./index.html">
+                        <img
+                          src="./img/logo.svg"
+                          alt="INUMA logo"
+                          width="52"
+                          height="67"
+                      /></a>
+                    </div>
+                    <div
+                      class="nav-wrapper"
+                      uk-toggle="target:body; cls:menu-active"
+                    >
+                      <span class="nav-opener"
+                        ><span>Toggle navigation</span></span
+                      >
+                    </div>
+                  </div>
+
+                  <div class="uk-modal-dialog">
+                    <div class="uk-container">
+                      <button
+                        class="uk-modal-close-full uk-close-large back-button"
+                        type="button"
+                        uk-close
+                      >
+                        <i class="icon icon-long-arrow-right"></i>
+                      </button>
+                      <ul
+                        class="category-list row-grid col-2 col-md-3 col-lg-5"
+                        uk-scrollspy="target: > li:nth-last-child(-n+5); cls: uk-animation-slide-top-small; delay: 100; repeat: true"
+                      >
+                        <li class="title-box">
+                          <h3>Unsere Referenzen.</h3>
+                        </li>
+                        <li class="active">
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/arbeitswelten-1.png" />
+                            </div>
+                            <strong>Arbeitswelten</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/wohnwelten-1.png" />
+                            </div>
+                            <strong>Wohnwelten</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/showroom-1.png" />
+                            </div>
+                            <strong>Showroom</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/filialen-1.png" />
+                            </div>
+                            <strong>Filialen</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img
+                                src="./img/individueller-innenausbau-1.png"
+                              />
+                            </div>
+                            <strong>Individueller Innenausbau</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/serienproduktion-1.png" />
+                            </div>
+                            <strong>Serienproduktion</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/mobel-nach-mass-1.png" />
+                            </div>
+                            <strong>Möbel nach Maß</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/museen-1.png" />
+                            </div>
+                            <strong>Museen</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/gastronomie-hospitality-1.png" />
+                            </div>
+                            <strong>Gastronomie/ Hospitality</strong>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="active">
+                <a href="karriere.html">Karriere</a>
+              </li>
+              <li>
+                <a href="kontakt.html">Kontakt</a>
+              </li>
+              <ul class="social-media-list">
+                <li>
+                  <a
+                    href="https://www.instagram.com/inuma_gmbh/"
+                    target="_blank"
+                    aria-label="Instagram"
+                  >
+                    <i class="icon icon-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.facebook.com/INUMAgmbh/"
+                    target="_blank"
+                    aria-label="Facebook"
+                  >
+                    <i class="icon icon-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/inumagmbh/"
+                    target="_blank"
+                    aria-label="LinkedIn"
+                  >
+                    <i class="icon icon-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </ul>
+          </div>
+        </nav>
+        <div class="burger-button">
+          <a
+            href="#"
+            class="nav-opener"
+            data-uk-toggle="target:body; cls:menu-active"
+          >
+            <span>menu</span>
+          </a>
+        </div>
+      </header>
+
+      <main id="main">
+        <section class="section section-karriere">
+          <div class="uk-container">
+            <div class="titles">
+              <strong class="subtitle uk-animation-slide-right-medium"
+                >Karriere</strong
+              >
+              <h2 class="uk-animation-slide-bottom-medium">
+                Finde Deinen Traumjob bei INUMA.
+              </h2>
+            </div>
+          </div>
+          <div
+            class="bg-box karriere-bg uk-animation-scale-down"
+            style="background-image: url(./img/karriere-bg.jpg)"
+          ></div>
+          <div class="uk-container">
+            <ul class="advantages-list">
+              <li>
+                <div class="text-holder">
+                  <div class="text-box">
+                    <h3>Firmeneigene Lehrwerkstatt.</h3>
+                    <p>
+                      Unsere Lehrwerkstatt spielt eine sehr zentrale Rolle bei
+                      uns. Unsere nächste Generation ist ein wichtiger
+                      Teamplayer auf Augenhöhe.
+                    </p>
+                    <p>
+                      Hier werden unter fachmännischer Anleitung unseres
+                      Lehrmeisters Möbeltischler ausgebildet. Unsere Azubis
+                      lernen unser geniales Tischlerhandwerk von der Pike auf
+                      und werden früh in die vielfältigen Arbeitsprozesse
+                      unserer Tischlerei einbezogen. Von Anfang an gestalten wir
+                      mit jedem einzelnen einen möglichen weiteren beruflichen
+                      Weg entsprechend unserer INUMA-KARRIERECHANCEN.
+                    </p>
+                  </div>
+                </div>
+                <div class="box-img">
+                  <img src="./img/discussion.jpg" alt="people disscuss smth" />
+                </div>
+              </li>
+              <li class="reversed">
+                <div class="text-holder">
+                  <div class="text-box">
+                    <h3>Karrierechancen.</h3>
+                    <p>
+                      Nach der Gesellenprüfung arbeitest du in einem unserer
+                      Montageteams, im Bankraum und/ oder als Spezialist für
+                      unseren hochmodernen Holzbearbeitungsmaschinenpark. Wer
+                      eine abwechslungsreiche berufliche Tätigkeit sucht, kann
+                      sich als Möbeltischler-Allrounder bei uns wunderbar
+                      entfalten. <br />
+                      Dabei bieten wir folgende Spezialisierungsmöglichkeiten:
+                      Berufserfahrene Tischlergesellen können sich - nach einer
+                      intensiven Zeit der Einarbeitung - zur CAD/ imos-Fachkraft
+                      weiterbilden, um als
+                      <strong>Arbeitsvorbereiter/ Konstrukteur</strong> zu
+                      arbeiten. <br />
+                      Auch ein späterer berufsbegleitender
+                      <strong>
+                        Meisterabschluss/ Bachelor Professional ist
+                        denkbar.</strong
+                      ><br />
+                      Mit dieser Qualifikation steht einer Qualifikation zum
+                      <strong>Projektleiter/ Kalkulator</strong> nichts mehr im
+                      Wege und häufig geht damit auch die Übernahme von
+                      Führungsaufgaben einher.
+                    </p>
+                  </div>
+                </div>
+                <div class="box-img">
+                  <img src="./img/carving.jpg" alt="carving" />
+                </div>
+              </li>
+            </ul>
+            <h3>Offene Stellenangebote.</h3>
+            <ul class="karriere-accordion" uk-accordion>
+              <li class="uk-open">
+                <div class="uk-accordion-title">
+                  <a class="" href><strong>Projektleiter (M/W/D)</strong></a>
+                  <i class="icon icon-small-arrow-up"></i>
+                </div>
+                <div class="uk-accordion-content">
+                  <p>
+                    Wir suchen ab sofort zur Verstärkung einen Projektleiter/
+                    Kalkulator (m/w/d) für die gesamte Abwicklung von
+                    individuellen Möbel- und Innenausbauprojekten mit dem Ziel,
+                    diese termingetreu und effektiv nach den Wünschen unserer
+                    Kunden zu erstellen (einschließlich Kundenberatung und
+                    –betreuung, Kalkula­tion, Angebotserstellung, Planung und
+                    Vorbereitung, Management, Baustellenüberwa­chung,
+                    Kostenkontrolle, Abrechnung, Nachkalkulation).
+                  </p>
+                  <p>
+                    Sie sind versiert bei der Ableitung und Erstellung von
+                    Leistungsverzeichnissen aus aus­sagekräftigen externen
+                    Grundrisszeichnungen oder Computerrenderings sowie bei der
+                    Erarbeitung konstruktiver Umsetzungsvorschläge vorliegender
+                    Architektenentwürfe und/ oder Kundenideen in Zusammenarbeit
+                    mit der Produktionsleitung, der Arbeitsvorberei­tung und dem
+                    Werkstattmeister hinsichtlich der Machbarkeit und der
+                    Kostenstruktur.
+                  </p>
+
+                  <p>
+                    Sie verfügen über eine abgeschlossene Berufsausbildung als
+                    Tischler – gern auch mit Meisterbrief oder Studium aus einem
+                    vergleichbaren Tätigkeitsfeld – sowie mehrjähriger
+                    Berufserfahrung in der Holzverarbeitung, außerdem über
+                    folgende PC-Kenntnisse: Microsoft Office, OSD oder einer
+                    ähnlichen ERP-Software sowie imos- oder
+                    CAD-Software-Grundkenntnisse.
+                  </p>
+
+                  <p>
+                    Wir bieten eine abwechslungsreiche Tätigkeit am Standort
+                    Leipzig, direkt an der A14. INUMA steht für individuelle
+                    Möbelfertigung, unser Portfolio reicht von einzigartigen
+                    Designermöbeln bis zu individuellen Wohn- und Arbeitswelten.
+                    Wir liefern die gesamte Bandbreite und können Materialmix –
+                    nicht nur Holz und Plattenwerkstoffe, sondern auch Glas,
+                    Metall, Naturstein, Kunststoff und Mineralwerkstoff. Bei
+                    INUMA trifft Holz-Handwerk auf Hightech. Wir verbinden zu
+                    100 Prozent digitalisierte hochtechnisierte industrielle
+                    Fertigung noch mit dem guten alten Handwerk.
+                  </p>
+
+                  <p>Werden auch Sie Teil unseres engagierten Profi-Teams!</p>
+                  <p>
+                    Senden Sie Ihre Bewerbung an
+                    <a href="#">personal@inuma.de.</a>
+                  </p>
+                  <p>Wir freuen uns darauf, Sie kennenzulernen.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section section-hiring">
+          <div class="uk-container">
+            <div class="hiring-box">
+              <div class="information">
+                <h3>
+                  Nichts passendes gefunden? Bewerben Sie sich gerne initiativ!
+                </h3>
+                <div class="text-box">
+                  <p>
+                    Sie haben kein Stellenangebot gefunden, das Ihrem Profil
+                    entspricht?
+                  </p>
+                  <p>
+                    Wir sind immer auf der Suche nach neuen Kollegen. Zögern Sie
+                    nicht länger und bewerben sie sich initiativ.
+                  </p>
+                </div>
+              </div>
+              <div class="person-description">
+                <div class="box-img">
+                  <img src="./img/manager.png" alt="katja matysek" />
+                </div>
+                <div class="description">
+                  <strong class="name">Katja Matysek</strong>
+                  <span class="management">kaufmännische Geschäftsleitung</span>
+                  <a class="email" href="#"
+                    ><strong>personal@inuma.de</strong></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer id="footer">
+        <div class="uk-container">
+          <div class="contact-box">
+            <div class="info-box">
+              <ul class="address-list">
+                <li class="company-name">
+                  <a href="./index.html"><strong>INUMA GmbH</strong></a>
+                </li>
+                <li class="company-addr">
+                  Bergweg 5C<br />
+                  04356 Leipzig
+                </li>
+              </ul>
+              <ul class="uk-list kontakts-list">
+                <li>
+                  Telefon: <a href="tel:+493415262560">+49 341 526 25 60</a>
+                </li>
+                <li>
+                  Telefax: <a href="tel:+493415262570">+49 341 526 25 70</a>
+                </li>
+                <li>
+                  E-Mail: <a href="mailto:info@inuma.de">info@inuma.de</a>
+                </li>
+              </ul>
+            </div>
+            <ul class="social-media-list">
+              <li>
+                <a href="#">
+                  <i class="icon icon-facebook"></i>
+                  <strong>Facebook</strong>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="icon icon-instagram"></i>
+                  <strong>Instagram</strong>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="icon icon-linkedin"></i>
+                  <strong>LinkedIn</strong>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="uk-list copyright-list">
+            <li>© 2015 <a href="./index.html">Inuma</a></li>
+            <li><a href="./impressum.html">Impressum</a></li>
+            <li><a href="./confidentiality.html">Datenschutz</a></li>
+          </div>
+        </div>
+        <div class="logo-box">
+          <a href="./index.html">
+            <img src="./img/logo.svg" alt="logo" />
+          </a>
+        </div>
+      </footer>
+      <div id="preloader">
+        <div class="spinner"></div>
+      </div>
+    </div>
+  </body>
+</html>

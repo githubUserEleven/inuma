@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unternehmen – INUMA</title>
+    <script type="module" src="./js/main.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <header id="header" class="header">
+        <nav class="main-nav">
+          <div class="logo-box-img">
+            <a href="./index.html">
+              <img src="./img/logo.svg" alt="INUMA logo" width="52" height="67"
+            /></a>
+          </div>
+          <div class="holder-navbar">
+            <ul class="navbar-nav">
+              <li class="active">
+                <a href="unternehmen.html">Unternehmen</a>
+              </li>
+              <li>
+                <a href="#modal-full" uk-toggle
+                  >Referenzen
+                  <i class="icon icon-small-arrow-down"></i>
+                  <i class="icon icon-long-arrow-right"></i>
+                </a>
+                <div
+                  id="modal-full"
+                  class="uk-modal-full category-dropdown"
+                  uk-modal
+                >
+                  <div class="modal-header-holder">
+                    <div class="logo-box-img">
+                      <a href="./index.html">
+                        <img
+                          src="./img/logo.svg"
+                          alt="INUMA logo"
+                          width="52"
+                          height="67"
+                      /></a>
+                    </div>
+                    <div
+                      class="nav-wrapper"
+                      uk-toggle="target:body; cls:menu-active"
+                    >
+                      <span class="nav-opener"
+                        ><span>Toggle navigation</span></span
+                      >
+                    </div>
+                  </div>
+
+                  <div class="uk-modal-dialog">
+                    <div class="uk-container">
+                      <button
+                        class="uk-modal-close-full uk-close-large back-button"
+                        type="button"
+                        uk-close
+                      >
+                        <i class="icon icon-long-arrow-right"></i>
+                      </button>
+                      <ul
+                        class="category-list row-grid col-2 col-md-3 col-lg-5"
+                        uk-scrollspy="target: > li:nth-last-child(-n+5); cls: uk-animation-slide-top-small; delay: 100; repeat: true"
+                      >
+                        <li class="title-box">
+                          <h3>Unsere Referenzen.</h3>
+                        </li>
+                        <li class="active">
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/arbeitswelten-1.png" />
+                            </div>
+                            <strong>Arbeitswelten</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/wohnwelten-1.png" />
+                            </div>
+                            <strong>Wohnwelten</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/showroom-1.png" />
+                            </div>
+                            <strong>Showroom</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/filialen-1.png" />
+                            </div>
+                            <strong>Filialen</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img
+                                src="./img/individueller-innenausbau-1.png"
+                              />
+                            </div>
+                            <strong>Individueller Innenausbau</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/serienproduktion-1.png" />
+                            </div>
+                            <strong>Serienproduktion</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/mobel-nach-mass-1.png" />
+                            </div>
+                            <strong>Möbel nach Maß</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/museen-1.png" />
+                            </div>
+                            <strong>Museen</strong>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="referenzen.html">
+                            <div class="box-img">
+                              <img src="./img/gastronomie-hospitality-1.png" />
+                            </div>
+                            <strong>Gastronomie/ Hospitality</strong>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="karriere.html">Karriere</a>
+              </li>
+              <li>
+                <a href="kontakt.html">Kontakt</a>
+              </li>
+              <ul class="social-media-list">
+                <li>
+                  <a
+                    href="https://www.instagram.com/inuma_gmbh/"
+                    target="_blank"
+                    aria-label="Instagram"
+                  >
+                    <i class="icon icon-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.facebook.com/INUMAgmbh/"
+                    target="_blank"
+                    aria-label="Facebook"
+                  >
+                    <i class="icon icon-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/inumagmbh/"
+                    target="_blank"
+                    aria-label="LinkedIn"
+                  >
+                    <i class="icon icon-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </ul>
+          </div>
+        </nav>
+        <div class="burger-button">
+          <a
+            href="#"
+            class="nav-opener"
+            data-uk-toggle="target:body; cls:menu-active"
+          >
+            <span>menu</span>
+          </a>
+        </div>
+      </header>
+
+      <main id="main">
+        <section class="section section-about-company">
+          <div class="uk-container">
+            <div class="titles">
+              <strong class="subtitle uk-animation-slide-right-medium"
+                >unternehmen</strong
+              >
+              <h2 class="uk-animation-slide-bottom-medium">
+                INUMA – Möbeltischlerei und Manufaktur.
+              </h2>
+            </div>
+          </div>
+          <div
+            class="bg-box about-bg uk-animation-scale-down"
+            style="background-image: url(./img/unterhemen-intro-bg.jpg)"
+          ></div>
+          <div class="uk-container">
+            <ul class="advantages-list">
+              <li id="family-business">
+                <div class="text-box">
+                  <i class="icon icon-family-business"></i>
+                  <h3>Familienunternehmen seit 1993.</h3>
+                  <p>
+                    Mit Firmensitz in Leipzig, 1993 von Hartmut und Ursula
+                    Bunsen gegründet, welche die Geschäftsführung bis zur
+                    geplanten Nachfolgeregelung der nächsten Generation
+                    innehatten. 2015 erfolgte die Übergabe der Geschäftsführung
+                    an Björn-Hendrik Duphorn und Raimo Bunsen.
+                  </p>
+                  <p>
+                    Im operativem Geschäft verantwortet Martin Schlotter den
+                    Bereich Projektmanagement/ Kalkulation und Projektleitung,
+                    Katja Matysek den kaufmännischen Bereich und Peter Maiwald
+                    als Werkstattmeister die Produktionsleitung.
+                  </p>
+                </div>
+                <div class="box-img">
+                  <img src="./img/wood-inuma.jpg" alt="wood-inuma-logo" />
+                </div>
+              </li>
+              <li id="man-power" class="reversed">
+                <div class="text-box">
+                  <i class="icon icon-man-power"></i>
+                  <h3>(Man)Power Next Generation.</h3>
+                  <p>
+                    Wir gehören zu den „Großen“ der Branche im östlichen Teil
+                    Deutschlands mit 4.200 m² Produktionsfläche und zusätzlichen
+                    600 m² für unsere hauseigener Lackiererei. Unser Team,
+                    bestehend aus 37 festangestellte Mitarbeiter mit 6
+                    Auszubildenden, ist aufeinander eingespielt und arbeitet
+                    absolut zuverlässig. Die meisten Mitarbeiter unserer
+                    familiengeführten Industrietischlerei sind seit vielen
+                    Jahren bei uns beschäftigt.
+                  </p>
+                </div>
+                <div class="box-img">
+                  <img src="./img/team-1.jpg" alt="team-1" />
+                </div>
+              </li>
+              <li id="hightech">
+                <div class="text-box">
+                  <i class="icon icon-hightech"></i>
+                  <h3>Hightech trifft Handwerk.</h3>
+                  <p>
+                    Wir verbinden digitalisierte hochtechnisierte industrielle
+                    Fertigung noch mit dem guten alten Handwerk. Der zu 100
+                    Prozent digitalisierte Projektdurchlauf schafft
+                    fehlerresistente Produkte. Unsere eigene CAD- bzw. IMOS- und
+                    OSD-Planungskapazitäten sind über modernste
+                    Maschinenanbindungen mit unseren Produktionsanlagen
+                    verbunden: MASCHINENPARK - CNC Weeke Venture 240M CNC Weeke
+                    BHX 055, Druckbalkensäge mit angeschlossenem Bargstedt
+                    Plattenlager, OTT-Kantenanleimmaschine, FLEXEDGE BÜTFERING
+                    Breitbandschleifmaschine CLASSIC 113C, Etagenfurnierpressen,
+                    Lamellen-Korpuspresse Gannomat Concept 70
+                  </p>
+                </div>
+                <div class="box-img">
+                  <img
+                    src="./img/work-in-progress.jpg"
+                    alt="work-in-progress"
+                  />
+                </div>
+              </li>
+              <li id="quality" class="reversed">
+                <div class="text-box">
+                  <i class="icon icon-quality"></i>
+                  <h3>Qualität auf höchstem Niveau.</h3>
+                  <p>
+                    Wir liefern die gesamte Bandbreite und können Materialmix.
+                    Wir verarbeiten tagtäglich nicht nur Holz und
+                    Plattenwerkstoffe, sondern auch Glas, Metall sowie
+                    Mineralwerkstoff und kooperieren mit Stoff- und
+                    Polsterspezialisten. Dabei ist Termintreue eine
+                    Selbstverständlichkeit. Als langjähriger Messebaulieferant
+                    produzieren wir seit Anbeginn just-in-time und mit absoluter
+                    Punktlandung.
+                  </p>
+                </div>
+                <div class="box-img">
+                  <img
+                    src="./img/work-in-progress-2.jpg"
+                    alt="work-in-progress-2"
+                  />
+                </div>
+              </li>
+              <li id="sustainability">
+                <div class="text-box">
+                  <i class="icon icon-sustainability"></i>
+                  <h3>Nachhaltig und ressourcenschonend.</h3>
+                  <p>
+                    Unsere nächste Generation ist ein wichtiger Teamplayer auf
+                    Augenhöhe. Unsere Lehrwerkstatt spielt eine sehr zentrale
+                    Rolle bei uns. Wichtig sind natürlich kurze Transportwege,
+                    deshalb verwenden wir nur Holz aus Europa. Außerdem beheizen
+                    wir unsere gesamte Firma mittels einer
+                    Holzabfall-Feuerungsanlage. Des Weiteren verfügen wir über
+                    eine eigene Solaranlage inklusive Netzeinspeisung.
+                  </p>
+                </div>
+                <div class="box-img">
+                  <img src="./img/team-2.jpg" alt="team-2" />
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section section-our-team">
+          <div class="uk-container">
+            <div class="text-box">
+              <div class="titles">
+                <h2>Unser Team.</h2>
+                <strong class="subtitle">Unsere Führungskräfte.</strong>
+              </div>
+              <p>
+                Björn-Hendrik Duphorn (2. v. rechts) ist Geschäftsführer der
+                INUMA. Das Projektmanagement verantwortet Tischlermeister Martin
+                Schlotter (rechts). Peter Maiwald (links) ist als
+                Werkstattmeister gleichzeitig unser Produktionsleiter. Die
+                kaufmännische Leitung obliegt Katja Matysek.
+              </p>
+            </div>
+            <div class="box-img">
+              <img src="./img/team-3.jpg" alt="team-3" />
+            </div>
+            <div class="text-box">
+              <strong class="subtitle">Unsere Experten</strong>
+              <p>
+                Mit viel Liebe zum Detail werden in unserer Produktion
+                tagtäglich viele hochwertige individuelle Möbel gefertigt -
+                nicht nur aus Holz, sondern in den mannigfaltigsten
+                Material-Kombinationen. Vom Einzelstück über Sonderproduktionen
+                bis hin zur kompletten Innenausstattung erfüllt unser gesamtes
+                Team Ihre Vorstellungen.
+              </p>
+            </div>
+            <div class="box-img">
+              <img src="./img/team-4.jpg" alt="team-4" />
+            </div>
+          </div>
+        </section>
+        <section id="section-innovation" class="section section-innovation">
+          <div class="uk-container">
+            <div class="innovation-holder">
+              <div class="text-box">
+                <h2>Innovationsmanagement.</h2>
+                <p>
+                  Zudem sind wir sehr stolz darauf, seit 2024 von der
+                  Europäischen Union gefördert zu werden. Als INUMA GmbH streben
+                  wir mit der Einstellung eines Innovationsmanagers eine
+                  umfassende Unternehmensneuausrichtung an, mit der Aufgabe, ein
+                  betriebliches Innovationsmanagement im Sinne von Prozess- und
+                  Organisationsinnovationen einzuführen.
+                  <br />
+                  <a href="https://www.xn--europa-frdert-sachsen-oec.de/de/"
+                    >Europäischen Union</a
+                  >
+                </p>
+              </div>
+              <div class="box-img" uk-toggle="target: #modal-eu-union">
+                <img src="./img/union-inuma.jpg" alt="innovation-popup" />
+              </div>
+            </div>
+          </div>
+
+          <div id="modal-eu-union" uk-modal>
+            <div class="uk-modal-dialog uk-modal-body eu-union-body">
+              <button
+                class="uk-modal-close-outside"
+                type="button"
+                uk-close
+              ></button>
+              <div class="box-img">
+                <img src="./img/union-inuma.jpg" alt="innovation-popup" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer id="footer">
+        <div class="uk-container">
+          <div class="contact-box">
+            <div class="info-box">
+              <ul class="address-list">
+                <li class="company-name">
+                  <a href="./index.html"><strong>INUMA GmbH</strong></a>
+                </li>
+                <li class="company-addr">
+                  Bergweg 5C<br />
+                  04356 Leipzig
+                </li>
+              </ul>
+              <ul class="uk-list kontakts-list">
+                <li>
+                  Telefon: <a href="tel:+493415262560">+49 341 526 25 60</a>
+                </li>
+                <li>
+                  Telefax: <a href="tel:+493415262570">+49 341 526 25 70</a>
+                </li>
+                <li>
+                  E-Mail: <a href="mailto:info@inuma.de">info@inuma.de</a>
+                </li>
+              </ul>
+            </div>
+            <ul class="social-media-list">
+              <li>
+                <a href="#">
+                  <i class="icon icon-facebook"></i>
+                  <strong>Facebook</strong>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="icon icon-instagram"></i>
+                  <strong>Instagram</strong>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="icon icon-linkedin"></i>
+                  <strong>LinkedIn</strong>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="uk-list copyright-list">
+            <li>© 2015 <a href="./index.html">Inuma</a></li>
+            <li><a href="./impressum.html">Impressum</a></li>
+            <li><a href="./confidentiality.html">Datenschutz</a></li>
+          </div>
+        </div>
+        <div class="logo-box">
+          <a href="./index.html">
+            <img src="./img/logo.svg" alt="logo" />
+          </a>
+        </div>
+      </footer>
+      <div id="preloader">
+        <div class="spinner"></div>
+      </div>
+    </div>
+  </body>
+</html>
